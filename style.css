@@ -1,29 +1,50 @@
+body {
+    background-color: #355C7D;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    background-color: #6C5B7B;
+    text-align: right;
+    padding: .75rem 0;
+    border-bottom: solid 1px #F8B195;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+header a {
+    color:white;
+    background-color: #C06C84;
+    border: solid 3px #F67280;
+    border-radius: 3px;
+    padding: .25rem .5rem;
+    margin-right: .5rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: #F67280;
+}
+
 .canvas {
-    background-image: url("./assets/sunset.jpg");
-    background-color: whitesmoke;
+    background-color: #C06C84;
 }
 
 
 .contentbox {
-    background-color: darkgrey;
+    background-color: #F8B195;
     text-align: center;
     margin:auto;
-    width: 40%;
+    width: 50%;
     font-family: Raleway;
-    font-size: 40px;
+    
+    font-size: 36px;
 
 }
-
-a:link, a:visited {
-    background-color: #6936f4;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-family: Raleway;
-    display: inline-block;
-  }
-  
-  a:hover, a:active {
-    background-color: rgb(35, 212, 189);
-  }
