@@ -1,0 +1,29 @@
+.canvas {
+    background-image: url("./assets/sunset.jpg");
+    background-color: whitesmoke;
+}
+
+
+.contentbox {
+    background-color: darkgrey;
+    text-align: center;
+    margin:auto;
+    width: 40%;
+    font-family: Raleway;
+    font-size: 40px;
+
+}
+
+a:link, a:visited {
+    background-color: #6936f4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Raleway;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(35, 212, 189);
+  }
